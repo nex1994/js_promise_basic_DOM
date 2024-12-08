@@ -18,5 +18,6 @@ const executor = (resolve, reject) => {
   }, 3000);
 };
 
-// eslint-disable-next-line no-unused-vars
 const promise1 = new Promise(executor);
+
+promise1.then();
